@@ -1,0 +1,23 @@
+{
+  "name": "destiny2wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "concat -o dist/wishlist.txt ./weapons/*.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombiePirate/Destiny2Wishlist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zombiePirate/Destiny2Wishlist/issues"
+  },
+  "homepage": "https://github.com/zombiePirate/Destiny2Wishlist#readme",
+  "dependencies": {
+    "concat": "^1.0.3"
+  }
+}
