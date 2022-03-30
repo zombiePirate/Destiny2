@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "concat -o dist/wishlist.txt ./weapons/*.txt"
+    "build": "concat -o dist/wishlist.txt ./weapons/*.txt",
+    "try": "./scripts/read_files.js"
   },
   "repository": {
     "type": "git",
